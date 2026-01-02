@@ -4,3 +4,6 @@ taskforgeenv/
 # IDEs
 .idea/
 .vscode/
+
+# Environment variables file
+.env
