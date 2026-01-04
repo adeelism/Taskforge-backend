@@ -4,3 +4,11 @@ taskforgeenv/
 # IDEs
 .idea/
 .vscode/
+
+# Environment variables file
+.env
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
