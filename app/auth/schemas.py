@@ -9,3 +9,7 @@ class SignupRequest(BaseModel):
 class Token(BaseModel):
     access_token: str
     token_type: str
+
+class LoginRequest(BaseModel):
+    email: str = Field()
+    password: str = Field()
