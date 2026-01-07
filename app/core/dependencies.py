@@ -4,7 +4,7 @@ from starlette import status
 
 from app.auth.dependencies import oauth2_scheme, decode_access_token
 from app.database import SessionLocal
-from app.models import User
+from app.models.users import User
 
 def get_db():
     db = SessionLocal()
