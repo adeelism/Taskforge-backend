@@ -1,5 +1,26 @@
-# Virtual environment
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Testing / tooling
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local database
+*.db
+
+# Virtual environments
 taskforgeenv/
+.venv/
+venv/
+
+# Environment
+.env
+.env.*
+!.env.example
 
 # IDEs
 .idea/
